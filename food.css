@@ -1,0 +1,74 @@
+#services{
+    
+    flex-direction:column ;
+    font-size: 19px;
+    height: 1000px;
+    
+}
+.services-container{
+    height: 100%;
+}
+
+.h-primary{
+    font-size: 40px;
+
+}
+.h-secondary{
+    font-size: 25px;
+}
+#services .box{
+    height: 250px;
+    
+}
+.box img{
+    height: 90px;
+}
+#client{
+ 
+    position: relative;
+    top: 340px;
+  
+}
+    .clientitem img{
+        height:120px;
+        width: 120px;
+      margin: 30px 40px;
+    }
+   
+   
+    #login{
+        
+       flex-direction: column;
+       top: 290px;
+    }
+    
+   
+
+
+
+#navbar{
+    flex-direction: column;
+}
+#home{
+    height: 280px;
+}
+#home::before{ 
+height: 100%;
+}
+.search{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    top: 110px;
+    right: inherit;
+}
+#home p{
+    font-size: 13px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#copyrights{
+    position:relative;
+    top: 290px;
+}
